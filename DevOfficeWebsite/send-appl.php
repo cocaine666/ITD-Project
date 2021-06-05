@@ -16,7 +16,7 @@ if ($conn->connect_error) {
 //$pls2 = $_POST["githuberino"];
 
 $sql = "INSERT INTO GitApplicants (Email, GitHub, Age)
-VALUES ('{$_POST["emailerino"]}', '{$_POST["githuberino"]}', 'john@example.com')";
+VALUES ('{$_POST["emailerino"]}', '{$_POST["githuberino"]}', '{$_POST["agerino"]}')";
 
 if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";
