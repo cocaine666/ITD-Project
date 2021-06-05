@@ -1,5 +1,5 @@
 # ITD-Project
-Zavrsni projekat iz ITD - Kristijan Malbasic
+Zavrsni projekat iz ITD - Kristijan Malbasic https://zavrsniprojekat.000webhostapp.com/
 
 # O DevOffice programu
 Program je uradjen u C#, GUI je kompletno custom kao i ikonice. Pokretanjem programa se otvara prozor u kom se vide svi
