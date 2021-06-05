@@ -1,0 +1,122 @@
+.bg {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, rgb(131, 195, 255) 50%, #09f 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+}
+  
+.bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+}
+  
+.bg3 {
+    animation-duration:5s;
+}
+  
+.content {
+    background-color:rgba(255,255,255,.8);
+    border-radius:.25em;
+    box-shadow:0 0 .25em rgba(0,0,0,.25);
+    box-sizing:border-box;
+    left:50%;
+    padding:10vmin;
+    position:fixed;
+    text-align:center;
+    top:50%;
+    transform:translate(-50%, -50%);
+}
+
+.circular-button {
+    width: 50px;
+    height: 50px;
+    top: 120px;
+    padding: 13px;
+    border-radius: 50px;
+    background-color: white !important;
+}
+
+.more-info {
+    display: block;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 90%;
+    left: 95%;
+    font-size: 12px;
+    border-radius: 30px;
+    background-color: white;
+
+}
+
+.tooltiperino {
+    display: block;
+    position: absolute;
+    width: 185px;
+    height: 100px;
+    top: 86%;
+    left: 84%;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: white;
+    transition: 1s all;
+    transform-origin: top right;
+    transform: scaleX(0);
+}
+
+.more-info a {
+    position: relative;
+    display: block;
+    top: 35%;
+    left: 45%;
+    text-decoration: none;
+    color: black;
+
+}
+
+.more-info:hover + .tooltiperino {
+    transform: scaleX(1);
+}
+
+.gigasmalltext {
+    font-size: 8px;
+}
+
+.social-media {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.social-media-r {
+    padding: 10px 25px;
+    margin-right: 10px;
+    border-right: 1px solid white;
+    transition: 0.8s all;
+}
+
+
+.social-media-r:hover {
+    color:lawngreen!important;
+}
+
+#spotify-div {
+    position: relative;
+    display:inline-block;
+    visibility:hidden;
+}
+
+@keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+  }
