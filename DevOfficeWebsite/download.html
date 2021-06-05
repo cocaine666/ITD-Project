@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" integrity="undefined" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/style2.css">
+    <script type="text/javascript">
+        function show_player() {
+          document.getElementById("spotify-div").style.visibility = "visible";           
+        }
+  </script>
+</head>
+<body>
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+<section id="nav">
+    <nav class="navbar mb-4 navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="img/devofflogo.png" width="150" height="75" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" href="projectinfo.html">Project info</a>
+              <a class="nav-link"  href="faq.html">FAQ</a>
+              <a class="nav-link active" aria-current="page" href="download.html">Download</a>
+            </div>
+          </div>
+          <form class="d-flex">
+            <div id="spotify-div"  class="ml-4 mt-2 px-4">
+                <iframe class="position-relative d-inline-block " src="https://open.spotify.com/embed/playlist/0NufZNjamzZAqsNfW10K7I" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+              </div>
+            <p class="position-relative d-inline-block ml-4 mt-3 py-4 gigasmalltext text-light">Listen to our playlist while you browse the website!</p>
+            <a class="text-light social-media-r mt-4 d-inline-block" onclick="show_player();" href="javascript:void(0);"><i class="fab fa-spotify"></i></a>
+            <a class="text-light social-media mt-4 d-inline-block" href=""><i class="fab fa-youtube"></i></a>
+            <a class="text-light social-media mt-4 d-inline-block" href=""><i class="fab fa-instagram"></i></a>
+            <a class="text-light social-media mt-4 d-inline-block" href=""><i class="fab fa-facebook"></i></a>
+            <!-- <i class="fab fa-facebook"></i> -->
+          </form>
+        </div>
+      </nav>
+</section>
+<div class="container text-center">
+  <h2 class="text-light text-center mt-5 mb-2">Downloads are finally here, but first..</h2>
+  <h3 class="text-muted fs-5 text-center mb-5">please take a moment to read what we wrote 😁</h3>
+  <div class="row">
+      <div class="col-4 d-flex justify-content-center">
+        <div class="card " style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Freeware version</h5>
+              <h6 class="card-subtitle mb-4 mt-4 text-muted">If you don't want to support us and you just want to work.</h6>
+              <p class="card-text mt-3 mb-3">You will be granted a download link to the latest version
+                  of DevOffice and you will have to manually update it by revisiting our site and going through all the hassle.
+              </p>
+              <button type="button" class="btn mt-4 mb-4 btn-primary"><i class="fa fa-download" aria-hidden="true"></i>Download</button>
+              <p class="card-text text-muted mt-3 mb-3"> 
+                  Developer message: download shareware we need money we eat grass for livin pls!! (seriously, we appreciate the support :) )
+            </p>
+            <img class="d-inline-block" src="img/REEeee.png" alt=""><p class="d-inline gigasmalltext"><- one of our developers</p>
+               
+        </div>
+          </div>
+      </div>
+      <div class="col-4 d-flex justify-content-center">
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Shareware</h5>
+              <h6 class="card-subtitle mb-4 mt-4 text-muted">You are just an awesome guy appreciating the work. No offense for the freeware peeps.</h6>
+              <p class="card-text">Download button below will download the shareware version of our DevOffice software. We don't like ads too, but one ad every half an hour is still better than other shareware programs, ain't it?</p>
+              <button type="button" class="btn mt-4 mb-4 btn-primary"><i class="fa fa-download" aria-hidden="true"></i>Download</button>
+              <p class="card-text text-muted mt-3 mb-3"> 
+                Developer message: I promise I will listen to your suggestions and make this program even better.
+          </p>
+          <img class="d-inline-block" src="img/chilling.png" alt=""><p class="d-inline gigasmalltext"><- one of our developers</p>
+            </div>
+          </div>
+      </div>
+      <div class="col-4 d-flex justify-content-center">
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Want access to our source code?</h5>
+              <h6 class="card-subtitle mb-4 mt-4 text-muted">ONE OF US. ONE OF US. ONE OF US.</h6>
+              <p class="card-text">You just need to send us some of your information so we can see if you are the chosen one. All details will be present when you click the button</p>
+              <button type="button" class="btn mt-4 mb-4 btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">I am ready!</button>
+            <p class="card-text text-muted mt-3 mb-3"> 
+                Developer message: I've waited for this moment all my life. YAAAAAAAAY!
+          </p>
+          <img class="d-inline-block" src="img/PepeNice.png" alt=""><p class="d-inline gigasmalltext"><- one of our developers</p>
+            </div>
+          </div>
+      </div>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Fill out the form below and click send when you are happy with what you wrote!</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form action="send-appl.php" method="POST">
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="text" name="emailerino" class="form-control" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text gigasmalltext">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputGit1" class="form-label">GitHub page</label>
+                      <input type="text" name="githuberino" class="form-control" >
+                      <p class="gigasmalltext">*we do check validity of your GitHub page provided. IP ban will be issued if you are trying to do shady stuff.</p>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Age</label>
+                        <input type="text" name="agerino" class="form-control">
+                      </div>
+                      <div class="mb-5 fw-bold">
+                        <p>You will be contacted as soon as our team reviews your submission. Thanks for your patience!</p>
+                      </div>
+                    
+                    
+                    <button type="submit" name="kysdog" class="btn btn-primary"><i class="mr-4 fa fa-paper-plane" aria-hidden="true"></i>Send</button>
+                  </form>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+  
+  
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+</body>
+</html>

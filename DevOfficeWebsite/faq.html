@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" integrity="undefined" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/style2.css">
+ <script type="text/javascript">
+        function show_player() {
+          document.getElementById("spotify-div").style.visibility = "visible";           
+        }
+  </script>
+</head>
+<body>
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+<section id="nav">
+    <nav class="navbar mb-4 navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="img/devofflogo.png" width="150" height="75" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" href="projectinfo.html">Project info</a>
+              <a class="nav-link active" aria-current="page" href="faq.html">FAQ</a>
+              <a class="nav-link" href="download.html">Download</a>
+            </div>
+          </div>
+          <form class="d-flex">
+            <div id="spotify-div"  class="ml-4 mt-2 px-4">
+              <iframe class="position-relative d-inline-block " src="https://open.spotify.com/embed/playlist/0NufZNjamzZAqsNfW10K7I" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
+            <p class="position-relative d-inline-block ml-4 mt-3 py-4 gigasmalltext text-light">Listen to our playlist while you browse the website!</p>
+            <a class="text-light social-media-r mt-4 d-inline-block" onclick="show_player();" href="javascript:void(0);"><i class="fab fa-spotify"></i></a>
+            <a class="text-light social-media mt-4 d-inline-block" href=""><i class="fab fa-youtube"></i></a>
+            <a class="text-light social-media mt-4 d-inline-block" href=""><i class="fab fa-instagram"></i></a>
+            <a class="text-light social-media mt-4 d-inline-block" href=""><i class="fab fa-facebook"></i></a>
+            <!-- <i class="fab fa-facebook"></i> -->
+          </form>
+
+        </div>
+      </nav>
+</section>
+<div class="container">
+  <h2 class="text-light text-center mt-5 mb-5">Frequently asked questions</h2>
+  <ol class="list-group text-light list-group-numbered">
+    <li class="list-group-item text-light d-flex bg-primary justify-content-between align-items-start">
+      <div class="ms-2 me-auto">
+        <div class="fw-bold">How does this program provide supervising functions over developers?</div>
+        Our software let's developers connect to the server which monitors all the activity that
+        developers do during their worktime. It doesn't send any private data except screenshots that provide
+        information on what that developer is currently doing or not doing regarding the project that they were assigned to work on.
+      </div>
+      <span class="badge bg-success rounded-pill">1</span>
+    </li>
+    <li class="list-group-item text-light d-flex bg-primary justify-content-between align-items-start">
+      <div class="ms-2 me-auto">
+        <div class="fw-bold">What are the recommended system requirements for this software?</div>
+        It will run mostly on anything with correct redistributables installed. List of redistributables are available on our GitHub page.
+      </div>
+      <span class="badge bg-success rounded-pill">2</span>
+    </li>
+    <li class="list-group-item text-light d-flex bg-primary justify-content-between align-items-start">
+      <div class="ms-2 me-auto">
+        <div class="fw-bold">Is this software free?</div>
+        Well, mostly it is. There are two options available for users - freeware and shareware. Functionality is the same mostly even through
+        the shareware version will show you certain ads randomly. We encourage our users to use the shareware version, in that way we are getting
+        some sort of extra support when it comes to updating and maintaining this project.
+      </div>
+      <span class="badge bg-success rounded-pill">3</span>
+    </li>
+    <li class="list-group-item text-light d-flex bg-primary justify-content-between align-items-start">
+      <div class="ms-2 me-auto">
+        <div class="fw-bold">GitHub? So this project is open source?</div>
+        Yes, it is indeed open source but to a certain extent, we will never publish any releases that are not verified by our 
+        team of developers. Many people tend to abuse this fact and in the end manipulate our users badly. Modifying this source is allowed for personal 
+        purposes. Any other public releases that are deemed "not appropriate" will be most certainly reported and flagged by our staff.
+      </div>
+      <span class="badge bg-success rounded-pill">4</span>
+    </li>
+    <li class="list-group-item text-light d-flex bg-primary justify-content-between align-items-start">
+      <div class="ms-2 me-auto">
+        <div class="fw-bold">Privacy concerns..</div>
+        We receive a lot of messages regarding this and we do understand all the hassle rising around the topic. Source code is public for both DevOffice
+        and WorkCheck so you can always hire a certain digital security inspection company to give you an answer. We are not responsible for any sort of 
+        security issues you encountered with unofficial releases. That is why we are encouraging people to always download our software through this website
+        or our GitHub.
+      </div>
+      <span class="badge bg-success rounded-pill">5</span>
+    </li>
+    <li class="list-group-item text-light d-flex bg-primary justify-content-between align-items-start">
+      <div class="ms-2 me-auto">
+        <div class="fw-bold text-light">Is this software free?</div>
+        Well, mostly it is. There are two options available for users - freeware and shareware. Functionality is the same mostly even through
+        the shareware version will show you certain ads randomly. We encourage our users to use the shareware version, in that way we are getting
+        some sort of extra support when it comes to updating and maintaining this project.
+      </div>
+      <span class="badge bg-success rounded-pill">6</span>
+    </li>
+  </ol>
+  <div class="container text-center">
+    <a class="circular-button mt-4 align-middle d-inline-block " href="download.html"><i class="fas fa-arrow-right"></i></a>
+  </div>
+  
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
+</body>
+</html>
